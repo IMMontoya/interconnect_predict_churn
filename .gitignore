@@ -1,0 +1,8 @@
+# All files that begin with ._ (hidden files on Mac)
+._*
+
+# The data directory
+/final_provider
+
+# Catboost info
+/catboost_info
