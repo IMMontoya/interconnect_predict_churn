@@ -204,7 +204,6 @@ The CatBoostClassifier with the oringal data set was the best performer. It was 
 |   | Model               | Dataset   | ROC_AUC  | Accuracy  |
 |---|---------------------|-----------|----------|-----------|
 | 0 | CatBoostClassifier   | Original  | 0.845518 | 0.738976 |
-....
 
 ### Best Model
 
