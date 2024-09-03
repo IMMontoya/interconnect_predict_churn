@@ -224,19 +224,6 @@ There is also good balance between false positives and false negatives, aligning
 
 The top ten most important features in the model were:
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -325,19 +312,6 @@ For good measure, the best model was retrained with the BeginYear column removed
 
 The model performed only slightly worse without the Begin year feature, but was still a strong performer with a ROC_AUC score of 84.17% and an accuracy score of 80.17%.  The feature importance for the model trained without the Begin year:
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
