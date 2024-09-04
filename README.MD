@@ -392,6 +392,14 @@ Begin month also looks to be a strong feature, suggesting some seasonal relation
 
 ## Conclusion and Recommendations
 
+With the begin year as part of the training features:  
+AUC-ROC: 0.8555  
+Accuracy: 0.8131  
+
+Without the begin year as part of the training features:  
+AUC-ROC: 0.8417  
+Accuracy: 0.8017
+
 Given the similar performance of the model with and without the begin year feature, and the project lead's assurance that the data is correct, this model, trained with the begin year as part of the features, looks to be a strong candidate for deployment.  
 
 If the model begins to underperform, I would recommend triple checking the data for the target variable to ensure that it is being pulled correctly. The company could also retrain the model with the Begin year feature removed to see if the model's in production performance improves.  
