@@ -1,14 +1,16 @@
 # Customer Churn Prediction with Boosting Algorithms
 
-[Notebook](/interconnect_churn_prediction.ipynb)  
-[Intro/Objective](#introobjective)  
-[Data](#data)  
-[Data Preprocessing](#data-preprocessing)  
-[Exploratory Data Analysis](#exploratory-data-analysis)  
-[Prepare Data for Modeling](#prepare-data-for-modeling)  
-[Modeling](#modeling)  
-[Conclusion and Recommendations](#conclusion-and-recommendations)  
-[Libraries](#libraries)  
+## Table of Contents
+
+- [Notebook](/interconnect_churn_prediction.ipynb)  
+- [Intro/Objective](#introobjective)  
+- [Data](#data)  
+- [Data Preprocessing](#data-preprocessing)  
+- [Exploratory Data Analysis](#exploratory-data-analysis)  
+- [Prepare Data for Modeling](#prepare-data-for-modeling)  
+- [Modeling](#modeling)  
+- [Conclusion and Recommendations](#conclusion-and-recommendations)  
+- [Libraries Used](#libraries-used)  
 
 ## Intro/Objective
 
@@ -404,10 +406,9 @@ Given the similar performance of the model with and without the begin year featu
 
 If the model begins to underperform, I would recommend triple checking the data for the target variable to ensure that it is being pulled correctly. The company could also retrain the model with the Begin year feature removed to see if the model's in production performance improves.  
 
-## Libraries
+## Libraries Used
 
-Python=3.10.9
-
+Python 3.10.9  
 numpy=1.25.2  
 pandas=2.0.3  
 matplotlib=3.7.1  
